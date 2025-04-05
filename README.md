@@ -1,5 +1,4 @@
 <p align="center">
-
 <p align="center">
   <h1 align="center">Hierarchical Object-Aware Dual-Level Contrastive Learning for Domain Generalized Stereo Matching</h1>
   <p align="center">
@@ -9,14 +8,18 @@
     ·
     <a href="https://siewkeilam.github.io/ei-research-group/index.html"><strong>Siew-Kei Lam</strong></a>
     ·
-    <a href="https://cs.bit.edu.cn/szdw/jsml/gjjgccrc/lcs_e253eb02bdf246c4a88e1d2499212546/index.htm"><strong>Changsheng Li</strong></a>
+    <a href="https://cs.bit.edu.cn/szdw/jsml/gjjgccrc/29786fd2fa80455b9a5922066ed96a4a.htm"><strong>Changsheng Li</strong></a>
     ·
     <strong>Thambipillai Srikanthan</strong>
     <br>
-    <br>
     <b>Beijing Institute of Technology &nbsp; | &nbsp; Nanyang Technological University </b>
+    <br>
+    <br>
+	<a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/ee5bb72130c332c3d4bf8d231e617506-Paper-Conference.pdf"><strong>[Paper]</strong></a> &nbsp;
+<a href="https://joshmiao.github.io/HODC/"><strong>[Project Page]</strong></a>
   </p>
 </p>
+
 
 
 
@@ -129,10 +132,13 @@ CUDA_VISIBLE_DEVICES=0 torchrun --master_port 6666 --nproc_per_node=1 tools/test
 If you find HODC useful, please cite using this BibTeX:
 
 ```bibtex
-@inproceedings{miaohierarchical,
+@article{miao2024hierarchical,
   title={Hierarchical Object-Aware Dual-Level Contrastive Learning for Domain Generalized Stereo Matching},
   author={Miao, Yikun and Wu, Meiqing and Lam, Siew Kei and Li, Changsheng and Srikanthan, Thambipillai},
-  booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems}
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={132050--132076},
+  year={2024}
 }
 ```
 
